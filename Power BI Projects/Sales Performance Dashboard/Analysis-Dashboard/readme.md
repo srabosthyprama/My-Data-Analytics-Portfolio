@@ -1,4 +1,4 @@
-# 📊 Sales Performance Dashboard — Power BI
+# 📊 Sales Performance Dashboard - Power BI
 
 A Power BI dashboard built to analyze **sales, profit, returns, customer behavior, and product performance**.
 
@@ -32,7 +32,7 @@ The dashboard provides a complete view of business performance from three differ
 
 ---
 
-# 🔵 Page 1 — Overview
+# 🔵 Page 1 - Overview
 
 ### 📷 Dashboard
 
@@ -117,7 +117,7 @@ Several **Mountain-200** variants appear among the top-selling products, showing
 
 ---
 
-# 🟣 Page 2 — Customer Insights
+# 🟣 Page 2 - Customer Insights
 
 ### 📷 Dashboard
 
@@ -192,7 +192,7 @@ This suggests that customer buying behavior, product fit, and customer segment s
   
 ---
 
-# 🟢 Page 3 — Product Performance
+# 🟢 Page 3 - Product Performance
 
 ### 📷 Dashboard
 
