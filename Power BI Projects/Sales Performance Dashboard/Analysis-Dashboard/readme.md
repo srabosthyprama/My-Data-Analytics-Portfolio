@@ -32,6 +32,14 @@ The dashboard provides a complete view of business performance from three differ
 
 ---
 
+# 🗂️ Data Model
+
+<img width="1435" height="709" alt="Screenshot 2026-08-13 150019" src="https://github.com/user-attachments/assets/93359801-9113-45e5-ae5b-8d66c96d7026" />
+
+The data model connects sales, customer, product, territory, and return-related tables to support accurate **sales, profit, customer, product, and return analysis** across the dashboard.
+
+---
+
 # 🔵 Page 1 - Overview
 
 ### 📷 Dashboard
