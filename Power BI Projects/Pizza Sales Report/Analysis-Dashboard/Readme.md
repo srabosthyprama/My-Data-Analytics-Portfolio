@@ -1,4 +1,4 @@
-```markdown
+
 # Pizza Sales Performance Dashboard
 
 > Turning raw pizza sales data into actionable business insights with Power BI.
