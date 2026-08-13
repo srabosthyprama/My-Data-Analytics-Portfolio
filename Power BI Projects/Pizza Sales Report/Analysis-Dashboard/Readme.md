@@ -10,15 +10,11 @@ The goal of this project is not only to understand **what happened**, but also t
 
 ## Dashboard Preview
 
-![Pizza Sales Dashboard Preview](images/pizza-sales-dashboard.png)
-
-> Replace `images/pizza-sales-dashboard.png` with the actual path of your dashboard screenshot.
+<img width="1558" height="836" alt="Screenshot 2026-08-13 114136" src="https://github.com/user-attachments/assets/4f10bff8-1070-42e3-bdc7-0c78d56d48b8" />
 
 ### Live Dashboard
 
-[View Interactive Power BI Dashboard](YOUR_POWER_BI_LIVE_DASHBOARD_LINK)
-
-> Replace `YOUR_POWER_BI_LIVE_DASHBOARD_LINK` with your published Power BI Service link.
+[View Interactive Power BI Dashboard][(YOUR_POWER_BI_LIVE_DASHBOARD_LINK)](https://app.powerbi.com/view?r=eyJrIjoiODM3MzdiYjEtZDQ3Zi00YmJkLTkxNDgtMmM3N2NmODAyY2NlIiwidCI6IjNjZDA3OTg4LTUyNjMtNDA2NC1hZDU1LWU5NTZhYjNkZDExNyIsImMiOjEwfQ%3D%3D)
 
 ---
 
@@ -34,8 +30,6 @@ The objective of this project is to explore pizza sales data and identify patter
 - Hourly ordering patterns
 - Peak and off-peak periods
 - Potential operational and revenue opportunities
-
-The dashboard is designed to move from **descriptive analysis** toward **business-focused insights and recommendations**.
 
 ---
 
@@ -72,20 +66,20 @@ Sales performance varied across the year, showing noticeable seasonal fluctuatio
 
 Other strong-performing months included:
 
-- **March:** $70.40K revenue
-- **May:** $71.40K revenue
-- **November:** $70.40K revenue
+- **May:** $71.40K revenue | 4,328 pizzas sold
+- **November:** $70.40K revenue | 4,266 pizzas sold
+-  **March:** $70.40K revenue | 4,261 pizzas sold
 
 ### Lower-Performing Months
 
 The weaker-performing months included:
 
 - **February:** $65.16K revenue | 3,961 pizzas sold
-- **September:** $64.18K revenue
-- **October:** $64.03K revenue
-- **December:** $64.70K revenue
+- **December:** $64.70K revenue | 3,935 pizzas sold
+- **September:** $64.18K revenue | 3,890 pizzas sold
+- **October:** $64.03K revenue | 3,883 pizzas sold
 
-The lower performance during September–December highlights a potential opportunity for further investigation into seasonal demand and revenue patterns.
+The lower performance during September–December suggests that seasonal changes in customer demand and revenue should be looked at more closely.
 
 > **Note:** The dataset shows the sales pattern but does not directly provide the external reasons behind these fluctuations. Factors such as holidays, weather, customer spending, promotions, or local events would require additional data to confirm the root cause.
 
@@ -110,7 +104,7 @@ Customer demand varies across pizza categories.
 
 The strong performance of Classic pizzas suggests that familiar and popular products play an important role in overall customer demand.
 
-The comparatively lower share of Chicken pizzas could represent an opportunity for further analysis around pricing, promotions, product combinations, or customer preferences.
+The comparatively lower share of Chicken pizzas could represent an opportunity for further analysis around pricing, promotions, combinations, or what customers prefer.
 
 ---
 
@@ -126,14 +120,14 @@ Customer demand is highly concentrated around the most popular sizes.
 | X-Large | **544** |
 | XX-Large | **28** |
 
-**Large** pizzas clearly dominate demand with **12,736 pizzas sold**.
+**Large** pizzas clearly dominate demand with **12,736 order**.
 
 In contrast, X-Large and XX-Large pizzas had extremely low demand:
 
 - **X-Large:** 544
 - **XX-Large:** 28
 
-Together, these two sizes account for **less than 1%** of total pizzas sold.
+Together, these two sizes account for **less than 1%** of total order.
 
 ### Insight
 
@@ -160,7 +154,7 @@ The strongest demand periods were concentrated around:
 - **12:00 PM** — Lunch peak
 - **5:00 PM–6:00 PM** — Evening peak
 
-The Day & Time matrix/heatmap makes these demand patterns easy to identify.
+The Day & Time heatmap makes these demand patterns easy to identify.
 
 ### Insight
 
@@ -216,7 +210,7 @@ Maintaining ingredients and preparation capacity for products with very low dema
 - Ingredient waste
 - Additional operational complexity
 
-This suggests that low-performing sizes could be reviewed as part of a broader inventory optimization analysis.
+This suggests that low-performing sizes could be reviewed to see if inventory can be managed more efficiently.
 
 ---
 
@@ -229,9 +223,9 @@ Thursday and Friday demand, especially around lunch and evening peaks, may creat
 - Order processing
 - Preparation capacity
 
-If demand significantly exceeds available capacity during these periods, longer wait times and reduced service quality could become potential risks.
+If there are more orders than staff can handle during busy times, customers may have to wait longer and service quality may decrease.
 
-This creates an opportunity to explore **more demand-aligned staffing schedules**.
+This creates an opportunity to schedule more staff during busy hours and fewer staff during quiet hours.
 
 ---
 
@@ -239,7 +233,7 @@ This creates an opportunity to explore **more demand-aligned staffing schedules*
 
 Lower-demand periods represent a potential revenue opportunity.
 
-If staff and equipment have available capacity during quieter hours, targeted promotions could potentially shift a portion of demand toward these periods.
+If staff and equipment are not very busy during quiet hours, special offers could encourage some customers to come at those less busy times.
 
 ---
 
@@ -253,95 +247,43 @@ This highlights an opportunity to investigate seasonal campaigns and compare the
 
 # Recommendations Based on the Analysis
 
-The following recommendations are **data-driven opportunities identified from the dashboard**, rather than direct operational instructions.
+## 1. Dynamic Staffing
 
-## 1. Explore Dynamic Staffing
+The highest order volumes occur on **Thursday and Friday**, especially around **12:00 PM–1:00 PM** and **5:00 PM–7:00 PM**.
 
-The concentration of orders around:
-
-- **Thursday and Friday**
-- **12:00 PM–1:00 PM**
-- **5:00 PM–7:00 PM**
-
-suggests that a more demand-aligned staffing approach could be explored.
-
-Potential approaches include:
-
-- Flexible staff scheduling
-- Part-time staffing during high-demand windows
-- Adjusting kitchen capacity around peak periods
-- Aligning delivery resources with order volume
-
-### Potential Benefit
-
-Better alignment between staffing capacity and customer demand could help reduce peak-hour pressure while improving utilization during quieter periods.
+A more demand-based staffing approach could help manage peak-hour pressure while making better use of resources during quieter periods.
 
 ---
 
 ## 2. Review Low-Demand Pizza Sizes
 
-X-Large and XX-Large pizzas generated very low sales:
+**X-Large (544)** and **XX-Large (28)** pizzas have very low demand compared with other sizes.
 
-- **X-Large:** 544 pizzas
-- **XX-Large:** 28 pizzas
-
-A potential recommendation is to review these sizes based on:
-
-- Ingredient requirements
-- Preparation cost
-- Profit margin
-- Special-order frequency
-- Customer demand
-
-If further analysis confirms that these sizes contribute very little revenue or margin, a **special-order-only** model could be considered.
+These sizes could be reviewed based on ingredient cost, preparation effort, profitability, and customer demand. If they remain consistently low-performing, a **special-order-only** option could be considered.
 
 ---
 
-## 3. Explore Chicken Category Promotions
+## 3. Promote the Chicken Category
 
-The Chicken category represented **22.29%** of total pizza sales, making it the lowest-performing category.
+The **Chicken category accounts for 22.29%** of total pizza sales, the lowest among the four categories.
 
-This could be explored through:
-
-- Combo offers
-- Discounts
-- Bundles
-- Cross-selling
-- Limited-time promotions
-
-A future analysis could compare promotional performance to determine whether these strategies meaningfully increase Chicken category sales.
+Targeted **combo offers, bundles, discounts, or cross-selling** could be explored to increase customer interest and improve category performance.
 
 ---
 
-## 4. Explore Off-Peak Promotions
+## 4. Increase Off-Peak Sales
 
-The demand pattern suggests that **2:00 PM–4:00 PM** could be an interesting period for demand-smoothing experiments.
+The **2:00 PM–4:00 PM** period presents a potential opportunity for demand smoothing.
 
-Potential ideas include:
-
-- Happy Hour discounts
-- Buy 1 Get 1 offers
-- Combo promotions
-- Limited-time deals
-
-The objective would be to shift some demand from highly concentrated peak periods toward quieter hours.
+Time-based offers such as **Happy Hour discounts, Buy 1 Get 1, or limited-time combos** could help attract customers during quieter hours and balance demand throughout the day.
 
 ---
 
-## 5. Explore Seasonal Campaigns
+## 5. Explore Seasonal Promotions
 
-The weaker performance during **September, October, and December** could be investigated through seasonal sales strategies.
+Lower sales during **September, October, and December** suggest an opportunity to test seasonal strategies.
 
-Potential approaches include:
-
-- Seasonal menu items
-- Discount vouchers
-- Limited-time offers
-- Event-based promotions
-- Customer loyalty campaigns
-
-The impact of these initiatives could then be measured through month-over-month and year-over-year comparisons.
-
+Possible approaches include **limited-time offers, seasonal menu items, discount vouchers, or event-based promotions**, with performance tracked through month-over-month comparisons.
 ---
 
 # Dashboard Features
@@ -426,7 +368,7 @@ across pizza sizes.
 
 ## Day and Time Demand Analysis
 
-A matrix/heatmap shows order volume by:
+A heatmap shows order volume by:
 
 **Day of Week × Hour**
 
@@ -468,90 +410,3 @@ The project demonstrates practical Power BI techniques including:
 - Dynamic business insights
 - Dashboard storytelling
 
----
-
-# Dashboard Design Approach
-
-The dashboard follows a simple analytical flow:
-
-**KPI Overview**  
-↓  
-**Monthly Performance**  
-↓  
-**Day and Time Demand**  
-↓  
-**Category Performance**  
-↓  
-**Size Performance**  
-↓  
-**Insights and Recommendations**
-
-This structure allows the analysis to move from:
-
-> **"How is the business performing?"**
-
-to:
-
-> **"When and what are customers buying?"**
-
-and finally:
-
-> **"What opportunities can be identified from the data?"**
-
----
-
-# Key Takeaways
-
-The analysis highlights several important findings:
-
-1. **$817.86K revenue** was generated from **21,350 orders** and **49,574 pizzas sold**.
-2. **July** was the strongest month with **$72.56K revenue** and **4,392 pizzas sold**.
-3. **February, September, October, and December** showed comparatively weaker sales.
-4. **Classic** was the leading pizza category at **30.03%**.
-5. **Large** was the most popular size with **12,736 pizzas sold**.
-6. **X-Large and XX-Large** had extremely low demand, with only **544 and 28 pizzas sold** respectively.
-7. **Friday** was the busiest day.
-8. **12:00 PM** and **5:00–6:00 PM** were the major demand peaks.
-9. Peak-hour demand highlights a potential opportunity for more demand-aligned staffing.
-10. Low-demand sizes and off-peak periods present potential opportunities for inventory optimization and demand-smoothing strategies.
-
----
-
-# Final Takeaway
-
-This project demonstrates how a Power BI dashboard can move beyond **descriptive reporting** and support **data-driven business thinking**.
-
-The objective was not simply to display sales numbers.
-
-It was to connect:
-
-**Data → Pattern → Insight → Risk → Opportunity → Recommendation**
-
-By analyzing when customers buy, what they prefer, and where demand is concentrated, the dashboard highlights potential areas for:
-
-- **Staffing optimization**
-- **Inventory efficiency**
-- **Promotional strategies**
-- **Menu optimization**
-- **Seasonal planning**
-
-> **A good dashboard doesn't just show what happened. It helps uncover where opportunities may exist.**
-
----
-
-# Project Links
-
-- **Live Power BI Dashboard:** [View Interactive Dashboard](YOUR_POWER_BI_LIVE_DASHBOARD_LINK)
-- **GitHub Repository:** [View Project Repository](YOUR_GITHUB_REPOSITORY_LINK)
-
----
-
-# Project Information
-
-| Detail | Description |
-|---|---|
-| Project Type | Portfolio Project — Data Analytics & Business Intelligence |
-| Focus Areas | Sales Performance, Customer Behavior, Operational Analytics, Business Insights |
-| Visualization Tool | Power BI |
-| Query / Calculation | DAX |
-| Key Features | KPI Cards, Field Parameters, Slicers, Heatmap, Dynamic Insights |
