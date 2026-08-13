@@ -1,11 +1,10 @@
-
 # Pizza Sales Performance Dashboard
 
 > Turning raw pizza sales data into actionable business insights with Power BI.
 
 An interactive **Power BI Pizza Sales Performance Dashboard** built to analyze sales performance, customer preferences, seasonal trends, and operational demand patterns.
 
-The goal of this project is not only to understand **what happened**, but also to explore **why it may have happened, what business risks exist, and what actions management can take** to improve revenue, inventory efficiency, and operational planning.
+The goal of this project is not only to understand **what happened**, but also to explore **why it may have happened, what business risks may exist, and what insights or opportunities can be identified from the data**.
 
 ---
 
@@ -25,22 +24,22 @@ The goal of this project is not only to understand **what happened**, but also t
 
 ## Business Objective
 
-The main objective of this project is to understand the key factors driving pizza sales and identify opportunities for better business decisions.
+The objective of this project is to explore pizza sales data and identify patterns in:
 
-The dashboard helps answer questions such as:
+- Revenue and order performance
+- Monthly sales trends
+- Pizza category preferences
+- Pizza size preferences
+- Day-of-week demand
+- Hourly ordering patterns
+- Peak and off-peak periods
+- Potential operational and revenue opportunities
 
-- How much revenue and how many orders were generated?
-- Which months perform best and worst?
-- Which pizza categories are most popular?
-- Which pizza sizes do customers prefer?
-- Which days and hours experience the highest demand?
-- When is the business most likely to face operational pressure?
-- Where might inventory or staffing resources be underutilized?
-- What actions could help improve peak-hour operations and off-peak sales?
+The dashboard is designed to move from **descriptive analysis** toward **business-focused insights and recommendations**.
 
 ---
 
-## Key Performance Indicators
+# Key Performance Indicators
 
 The dashboard tracks five core KPIs:
 
@@ -62,7 +61,7 @@ The growth comparison becomes meaningful when a specific month is selected from 
 
 ## 1. Seasonal Sales Fluctuation
 
-Sales performance varied across the year, showing clear seasonal fluctuations.
+Sales performance varied across the year, showing noticeable seasonal fluctuations.
 
 ### Strong-Performing Months
 
@@ -79,14 +78,14 @@ Other strong-performing months included:
 
 ### Lower-Performing Months
 
-The weakest performance was observed during:
+The weaker-performing months included:
 
 - **February:** $65.16K revenue | 3,961 pizzas sold
 - **September:** $64.18K revenue
 - **October:** $64.03K revenue
 - **December:** $64.70K revenue
 
-The decline during September–December is particularly important from a business perspective because it may indicate an opportunity for targeted seasonal campaigns and demand-generation strategies.
+The lower performance during September–December highlights a potential opportunity for further investigation into seasonal demand and revenue patterns.
 
 > **Note:** The dataset shows the sales pattern but does not directly provide the external reasons behind these fluctuations. Factors such as holidays, weather, customer spending, promotions, or local events would require additional data to confirm the root cause.
 
@@ -107,11 +106,11 @@ Customer demand varies across pizza categories.
 
 **Chicken** had the lowest share at **22.29%**.
 
-### Business Insight
+### Insight
 
-The strong performance of Classic pizzas indicates that familiar and popular products play an important role in overall demand.
+The strong performance of Classic pizzas suggests that familiar and popular products play an important role in overall customer demand.
 
-The lower share of Chicken pizzas could also represent an opportunity for targeted promotions, bundles, or further product-level analysis.
+The comparatively lower share of Chicken pizzas could represent an opportunity for further analysis around pricing, promotions, product combinations, or customer preferences.
 
 ---
 
@@ -136,19 +135,11 @@ In contrast, X-Large and XX-Large pizzas had extremely low demand:
 
 Together, these two sizes account for **less than 1%** of total pizzas sold.
 
-### Business Insight
+### Insight
 
-This creates a potential opportunity to review the cost of maintaining very low-demand sizes.
+The very low demand for X-Large and XX-Large sizes highlights a potential area for **menu and inventory optimization**.
 
-Rather than removing these sizes immediately, management could first evaluate:
-
-- Ingredient requirements
-- Preparation cost
-- Profit margin
-- Special-order frequency
-- Customer demand
-
-If these sizes consistently generate very little revenue or margin, they could potentially be moved to a **special-order-only** option.
+A possible recommendation would be to evaluate the cost, margin, ingredient requirements, and frequency of special orders for these sizes before deciding whether they should remain fully available or move toward a special-order model.
 
 ---
 
@@ -160,7 +151,7 @@ Demand is concentrated around specific days and time periods.
 
 **Friday** recorded the highest order volume, followed by **Thursday**.
 
-These days represent the most important periods for operational planning.
+This pattern highlights Thursday and Friday as important periods for understanding operational demand.
 
 ### Busiest Hours
 
@@ -171,17 +162,13 @@ The strongest demand periods were concentrated around:
 
 The Day & Time matrix/heatmap makes these demand patterns easy to identify.
 
-### Business Insight
+### Insight
 
-When a large share of orders arrives within a few specific hours, the business may experience:
+When a large share of orders arrives within a few specific hours, there may be a higher risk of operational bottlenecks during peak periods.
 
-**Peak Hours → Higher Workload → Operational Bottlenecks**
+At the same time, lower order volumes during other periods suggest potential underutilization of available staff and equipment.
 
-while:
-
-**Off-Peak Hours → Lower Workload → Underutilized Capacity**
-
-This suggests that staffing and operational resources should be aligned more closely with actual demand.
+This creates an opportunity to explore **demand-based staffing and off-peak sales strategies**.
 
 ---
 
@@ -221,110 +208,131 @@ The concentration of orders around **12:00 PM** and **5:00–6:00 PM** is consis
 
 ## 1. Inventory Waste
 
-Extremely low demand for **X-Large and XX-Large** pizzas may result in unnecessary inventory requirements.
+Extremely low demand for **X-Large and XX-Large** pizzas may create potential inventory inefficiencies.
 
-Maintaining ingredients and preparation capacity for products with very low demand can increase:
+Maintaining ingredients and preparation capacity for products with very low demand could contribute to:
 
-- Holding costs
+- Higher holding costs
 - Ingredient waste
-- Operational complexity
+- Additional operational complexity
+
+This suggests that low-performing sizes could be reviewed as part of a broader inventory optimization analysis.
 
 ---
 
 ## 2. Peak-Hour Bottlenecks
 
-Thursday and Friday demand, especially around lunch and evening peaks, can put pressure on:
+Thursday and Friday demand, especially around lunch and evening peaks, may create additional pressure on:
 
 - Kitchen staff
 - Delivery staff
 - Order processing
 - Preparation capacity
 
-If capacity is not planned around demand, customers may experience longer wait times and reduced service quality.
+If demand significantly exceeds available capacity during these periods, longer wait times and reduced service quality could become potential risks.
+
+This creates an opportunity to explore **more demand-aligned staffing schedules**.
 
 ---
 
 ## 3. Underutilized Off-Peak Capacity
 
-Lower-demand periods represent an opportunity.
+Lower-demand periods represent a potential revenue opportunity.
 
-Instead of leaving staff and equipment underutilized, the business could use targeted promotions to shift some demand toward quieter periods.
+If staff and equipment have available capacity during quieter hours, targeted promotions could potentially shift a portion of demand toward these periods.
 
 ---
 
 ## 4. Seasonal Revenue Risk
 
-The weaker performance observed in **September, October, and December** may create a revenue risk if the pattern continues.
+The weaker performance observed in **September, October, and December** may represent a potential seasonal revenue risk if similar patterns continue.
 
-This suggests the need for seasonal planning rather than relying only on reactive sales strategies.
+This highlights an opportunity to investigate seasonal campaigns and compare their performance against previous periods.
 
 ---
 
-# Recommended Business Actions
+# Recommendations Based on the Analysis
 
-## 1. Dynamic Staffing
+The following recommendations are **data-driven opportunities identified from the dashboard**, rather than direct operational instructions.
 
-Align staffing levels with actual customer demand.
+## 1. Explore Dynamic Staffing
 
-Increase operational capacity around:
+The concentration of orders around:
 
 - **Thursday and Friday**
 - **12:00 PM–1:00 PM**
 - **5:00 PM–7:00 PM**
 
-This could involve flexible scheduling, additional part-time staff, or better allocation of kitchen and delivery resources.
+suggests that a more demand-aligned staffing approach could be explored.
 
-### Expected Benefit
+Potential approaches include:
 
-**Better peak-hour service + shorter wait times + improved resource utilization**
+- Flexible staff scheduling
+- Part-time staffing during high-demand windows
+- Adjusting kitchen capacity around peak periods
+- Aligning delivery resources with order volume
+
+### Potential Benefit
+
+Better alignment between staffing capacity and customer demand could help reduce peak-hour pressure while improving utilization during quieter periods.
 
 ---
 
-## 2. Menu and Inventory Optimization
+## 2. Review Low-Demand Pizza Sizes
 
-Review the business case for **X-Large and XX-Large** pizzas.
+X-Large and XX-Large pizzas generated very low sales:
 
-Instead of removing them immediately, management could test:
+- **X-Large:** 544 pizzas
+- **XX-Large:** 28 pizzas
 
-> **Special-order only**
+A potential recommendation is to review these sizes based on:
 
-If demand and profitability remain extremely low, the business can consider reducing their availability.
+- Ingredient requirements
+- Preparation cost
+- Profit margin
+- Special-order frequency
+- Customer demand
 
-For the Chicken category, targeted:
+If further analysis confirms that these sizes contribute very little revenue or margin, a **special-order-only** model could be considered.
+
+---
+
+## 3. Explore Chicken Category Promotions
+
+The Chicken category represented **22.29%** of total pizza sales, making it the lowest-performing category.
+
+This could be explored through:
 
 - Combo offers
 - Discounts
 - Bundles
 - Cross-selling
+- Limited-time promotions
 
-could be tested to increase demand.
+A future analysis could compare promotional performance to determine whether these strategies meaningfully increase Chicken category sales.
 
 ---
 
-## 3. Off-Peak Promotions
+## 4. Explore Off-Peak Promotions
 
-Use slower periods to shift demand away from peak hours.
+The demand pattern suggests that **2:00 PM–4:00 PM** could be an interesting period for demand-smoothing experiments.
 
-For example:
+Potential ideas include:
 
-**Monday–Wednesday | 2:00 PM–4:00 PM**
-
-Potential strategies include:
-
-- Happy Hour Discounts
+- Happy Hour discounts
 - Buy 1 Get 1 offers
 - Combo promotions
 - Limited-time deals
 
-The objective is not simply to increase total orders, but to **smooth demand across the day**.
+The objective would be to shift some demand from highly concentrated peak periods toward quieter hours.
 
 ---
 
-## 4. Seasonal Campaigns
+## 5. Explore Seasonal Campaigns
 
-The lower-performing months can be targeted with specific campaigns.
+The weaker performance during **September, October, and December** could be investigated through seasonal sales strategies.
 
-Potential strategies include:
+Potential approaches include:
 
 - Seasonal menu items
 - Discount vouchers
@@ -332,7 +340,7 @@ Potential strategies include:
 - Event-based promotions
 - Customer loyalty campaigns
 
-Performance can then be compared against previous months to determine whether these campaigns actually improve revenue.
+The impact of these initiatives could then be measured through month-over-month and year-over-year comparisons.
 
 ---
 
@@ -348,7 +356,7 @@ The dashboard includes three main slicers:
 - **Pizza Category**
 - **Pizza Size**
 
-These allow users to drill into specific segments and understand how performance changes.
+These allow users to explore specific segments and understand how performance changes.
 
 ---
 
@@ -429,7 +437,7 @@ A dynamic text insight highlights the:
 - **Busiest Day**
 - **Busiest Time**
 
-This makes the dashboard easier for business users to interpret without manually analyzing every value.
+This makes the dashboard easier to interpret without manually analyzing every value.
 
 ---
 
@@ -476,9 +484,9 @@ The dashboard follows a simple analytical flow:
 ↓  
 **Size Performance**  
 ↓  
-**Business Insights and Actions**
+**Insights and Recommendations**
 
-This structure allows users to move from:
+This structure allows the analysis to move from:
 
 > **"How is the business performing?"**
 
@@ -488,13 +496,13 @@ to:
 
 and finally:
 
-> **"What should management do?"**
+> **"What opportunities can be identified from the data?"**
 
 ---
 
 # Key Takeaways
 
-The analysis highlights several important business insights:
+The analysis highlights several important findings:
 
 1. **$817.86K revenue** was generated from **21,350 orders** and **49,574 pizzas sold**.
 2. **July** was the strongest month with **$72.56K revenue** and **4,392 pizzas sold**.
@@ -504,30 +512,30 @@ The analysis highlights several important business insights:
 6. **X-Large and XX-Large** had extremely low demand, with only **544 and 28 pizzas sold** respectively.
 7. **Friday** was the busiest day.
 8. **12:00 PM** and **5:00–6:00 PM** were the major demand peaks.
-9. Staffing should be aligned with peak demand rather than distributed evenly throughout the day.
-10. Off-peak promotions and seasonal campaigns could help improve capacity utilization and revenue consistency.
+9. Peak-hour demand highlights a potential opportunity for more demand-aligned staffing.
+10. Low-demand sizes and off-peak periods present potential opportunities for inventory optimization and demand-smoothing strategies.
 
 ---
 
 # Final Takeaway
 
-This project demonstrates how a well-designed Power BI dashboard can move beyond **descriptive reporting** and support **business decision-making**.
+This project demonstrates how a Power BI dashboard can move beyond **descriptive reporting** and support **data-driven business thinking**.
 
 The objective was not simply to display sales numbers.
 
 It was to connect:
 
-**Data → Pattern → Business Risk → Opportunity → Action**
+**Data → Pattern → Insight → Risk → Opportunity → Recommendation**
 
-By understanding when customers buy, what they prefer, and where demand is concentrated, management can make more informed decisions around:
+By analyzing when customers buy, what they prefer, and where demand is concentrated, the dashboard highlights potential areas for:
 
-- **Staffing**
-- **Inventory**
-- **Promotions**
-- **Menu strategy**
+- **Staffing optimization**
+- **Inventory efficiency**
+- **Promotional strategies**
+- **Menu optimization**
 - **Seasonal planning**
 
-> **Good dashboards don't just tell us what happened. They help us decide what to do next.**
+> **A good dashboard doesn't just show what happened. It helps uncover where opportunities may exist.**
 
 ---
 
@@ -547,4 +555,3 @@ By understanding when customers buy, what they prefer, and where demand is conce
 | Visualization Tool | Power BI |
 | Query / Calculation | DAX |
 | Key Features | KPI Cards, Field Parameters, Slicers, Heatmap, Dynamic Insights |
-```
