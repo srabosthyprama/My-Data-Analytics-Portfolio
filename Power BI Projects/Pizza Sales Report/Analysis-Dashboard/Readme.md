@@ -14,7 +14,7 @@ The goal of this project is not only to understand **what happened**, but also t
 
 ### Live Dashboard
 
-[View Interactive Power BI Dashboard][(YOUR_POWER_BI_LIVE_DASHBOARD_LINK)](https://app.powerbi.com/view?r=eyJrIjoiODM3MzdiYjEtZDQ3Zi00YmJkLTkxNDgtMmM3N2NmODAyY2NlIiwidCI6IjNjZDA3OTg4LTUyNjMtNDA2NC1hZDU1LWU5NTZhYjNkZDExNyIsImMiOjEwfQ%3D%3D)
+[View Interactive Power BI Dashboard](https://app.powerbi.com/view?r=eyJrIjoiODM3MzdiYjEtZDQ3Zi00YmJkLTkxNDgtMmM3N2NmODAyY2NlIiwidCI6IjNjZDA3OTg4LTUyNjMtNDA2NC1hZDU1LWU5NTZhYjNkZDExNyIsImMiOjEwfQ%3D%3D)
 
 ---
 
