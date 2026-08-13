@@ -51,7 +51,7 @@ The growth comparison becomes meaningful when a specific month is selected from 
 
 ---
 
-# What Happened? — Key Findings
+# What Happened? - Key Findings
 
 ## 1. Seasonal Sales Fluctuation
 
