@@ -14,9 +14,9 @@ The dashboard helps HR teams understand **who is leaving, where attrition is hig
 
 The data model uses **HR_Data** as the main employee table, connected to three lookup tables:
 
-- **Departments_Lookup** — Department information
-- **Education_Lookup** — Education information
-- **Jobs_Lookup** — Job role information
+- **Departments_Lookup** - Department information
+- **Education_Lookup** - Education information
+- **Jobs_Lookup** - Job role information
 
 The lookup tables are connected to `HR_Data` through their respective IDs, creating a simple **star-schema style model** for analysis and reporting.
 
