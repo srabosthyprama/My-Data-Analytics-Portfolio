@@ -6,6 +6,8 @@ This Power BI project analyzes employee attrition and identifies the employee gr
 
 The dashboard helps HR teams understand **who is leaving, where attrition is higher, and which factors may need attention.**
 
+🔗 **[View Live Portfolio](https://app.powerbi.com/view?r=eyJrIjoiZmRjZTJkZDEtYjhmNC00ZjEwLWEzNTUtMzM0YjZiNGJjNzgwIiwidCI6IjNjZDA3OTg4LTUyNjMtNDA2NC1hZDU1LWU5NTZhYjNkZDExNyIsImMiOjEwfQ%3D%3D)**
+
 ---
 
 ## 🗂️ Data Model
