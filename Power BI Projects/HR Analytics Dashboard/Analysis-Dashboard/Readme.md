@@ -8,6 +8,10 @@ An interactive **HR Analytics Dashboard** built with Power BI to analyze workfor
 
 <img width="1315" height="732" alt="2" src="https://github.com/user-attachments/assets/22dfa717-59ee-4da1-bfae-dea3e2af84a9" />
 
+## Live Dashboard
+
+🔗 (https://app.powerbi.com/view?r=eyJrIjoiOWM0OWU5NTItNmEzZC00MjVjLTllNTItYzE4ZDg0ZTRlYjY2IiwidCI6IjNjZDA3OTg4LTUyNjMtNDA2NC1hZDU1LWU5NTZhYjNkZDExNyIsImMiOjEwfQ%3D%3D)
+
 ## Key Insights
 
 ### Workforce Overview
