@@ -4,9 +4,10 @@ An interactive **HR Analytics Dashboard** built with Power BI to analyze workfor
 
 ## Dashboard Preview
 
-<img width="1502" height="839" alt="1" src="https://github.com/user-attachments/assets/4998fcc2-71bb-49a6-bdff-8fb6e29c50d6" />
+<img width="1315" height="732" alt="2" src="https://github.com/user-attachments/assets/22dfa717-59ee-4da1-bfae-dea3e2af84a9" />
 
-<img width="1502" height="831" alt="2" src="https://github.com/user-attachments/assets/2ca3d608-ed55-4279-98bf-007b7457ae87" />
+
+<img width="1332" height="747" alt="1" src="https://github.com/user-attachments/assets/9016d943-9b72-4289-9381-48121491165b" />
 
 ## Key Insights
 
@@ -45,7 +46,7 @@ An interactive **HR Analytics Dashboard** built with Power BI to analyze workfor
 ### Employee Satisfaction
 
 - Overall average employee satisfaction is **3.89/5**.
-- **Unhappiness** is one of the notable recorded termination reasons, highlighting the relevance of employee experience when analyzing employee turnover.
+- **Unhappiness** is one of the common reasons for employees leaving, showing that employee satisfaction is an important part of understanding turnover..
 
 ## Key Takeaway
 
