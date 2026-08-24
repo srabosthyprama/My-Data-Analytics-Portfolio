@@ -14,15 +14,15 @@ The dashboard contains **3 pages**:
 
 ### Executive Summary
 
-<img width="1361" height="766" alt="Executive Summary" src="https://github.com/user-attachments/assets/7b398d05-be12-4458-ba7e-f25dd79ba97c" />
+<img width="1356" height="760" alt="Executive Summary" src="https://github.com/user-attachments/assets/a4b87b84-1c38-4e98-9da4-5538b67e0f8c" />
 
 ### Regional Performance
 
-<img width="1362" height="765" alt="Regional Performance" src="https://github.com/user-attachments/assets/1ac22c39-993f-4908-ade7-64d0517e73c9" />
+<img width="1362" height="765" alt="Regional Performance" src="https://github.com/user-attachments/assets/77501c67-6840-4e21-882e-caa729360f0b" />
 
 ### Product Performance
 
-<img width="1362" height="766" alt="Product Performance" src="https://github.com/user-attachments/assets/3d307ea1-0a8d-4b74-aa81-6475fc7be8fb" />
+<img width="1356" height="760" alt="Project Performance" src="https://github.com/user-attachments/assets/268f026c-0161-4bbc-a4ae-8ddbf3bf9e20" />
 
 ---
 
