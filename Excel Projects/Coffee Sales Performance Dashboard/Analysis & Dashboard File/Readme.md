@@ -10,7 +10,7 @@ The dashboard answers one central business question:
 
 # Dashboard Preview
 
-<img width="1860" height="716" alt="Coffee sales shop dashboard" src="https://github.com/user-attachments/assets/1e5cfc79-53d0-46d1-b642-df8d4028594f" />
+<img width="1860" height="716" alt="Coffee sales shop dashboard" src="https://github.com/user-attachments/assets/4e8f19d3-22ad-4322-9d48-62af2e636e9a" />
 
 ---
 
