@@ -1,17 +1,19 @@
 
-# 🛒 DeshiCart BD Sales Analysis Dashboard
+# 🛒 DeshiCart BD Sales Dashboard
 
-An interactive Sales Analysis Dashboard built with Microsoft Excel to help DeshiCart understand sales, profit, customer behavior, product performance, regional sales, and order trends.
+An interactive sales dashboard built with Microsoft Excel to track DeshiCart's sales, profit, product performance, regional sales, customer types, and order status.
 
-The main goal of this project is to answer one key business question:
+The dashboard helps answer one main business question:
 
-**How can DeshiCart increase sales, improve profit, understand customers, and make better business decisions?**
+**How is DeshiCart performing in terms of sales, profit, products, customers, and regions?**
 
 ## 📸 Dashboard Preview
 
-<img width="1151" height="768" alt="Deshi Chart BD in Excel" src="https://github.com/user-attachments/assets/692129c1-3813-4603-a9b9-4f49353b7342" />
+<img width="1123" height="761" alt="DeshiChart BD in Excel" src="https://github.com/user-attachments/assets/2a761c5f-605c-4b6b-893b-af09acab51cc" />
 
-## 📊 Executive Overview
+## 📊 Dashboard Overview
+
+The dashboard provides a summary of business performance through key metrics and charts. It helps users compare sales and profit, find top-selling products, review regional sales, and understand order status.
 
 ### 🔑 Key Performance Indicators (KPIs)
 
@@ -22,73 +24,80 @@ The main goal of this project is to answer one key business question:
 | Profit Margin | 11.01% |
 | Total Orders | 2,000 |
 | Total Quantity Sold | 3,996 |
-| Total Customers | 340 |
-| Average Order Value | Tk 6,300.36 |
+| Average Revenue per Order | Tk 6,300.36 |
 | Average Discount | 10.56% |
-
-DeshiCart generated around Tk 12.60 million in sales and Tk 1.39 million in profit from 2,000 orders.
-
-The overall profit margin is 11.01%. This means the business keeps about Tk 11.01 in profit for every Tk 100 in sales.
+| Total Customers | 340 |
 
 ### 💡 Key Insight
 
-Sales are strong, but profit margins vary across product categories and discount levels. Some products and customer groups bring in high sales but do not always deliver high profit.
-
-### 🎯 Recommendation
-
-Focus on products with better profit margins, review discount rules, and track both sales and profit before making business decisions.
+DeshiCart recorded Tk 12.60 million in sales and Tk 1.39 million in profit from 2,000 orders. The overall profit margin is 11.01%.
 
 ## 📈 Monthly Sales and Profit Trend
 
-The dashboard tracks sales and profit across the months from July 2025 to June 2026.
+This chart compares monthly revenue and profit from January to December.
 
-### 💰 Monthly Sales Highlights
+### 💡 Key Insights
 
-| Month | Revenue |
-|---|---:|
-| December 2025 | Tk 1,487,661.50 |
-| March 2026 | Tk 1,466,153.75 |
-| October 2025 | Tk 1,357,299.75 |
-| February 2026 | Tk 1,214,924.50 |
-| July 2025 | Tk 565,313.75 |
+- December has the highest monthly revenue at Tk 1,487,661.50.
+- July has the lowest monthly revenue at Tk 565,313.75.
+- March is another strong month, with revenue of Tk 1,466,153.75.
+- May has the lowest monthly profit at Tk 42,861.50.
 
-### 💡 Key Insight
+### 🎯 Business Takeaway
 
-December 2025 had the highest monthly sales, at around Tk 1.49 million. July 2025 had the lowest sales, at around Tk 565K.
-
-The gap between the strongest and weakest months was Tk 922,347.75.
-
-### 🎯 Recommendation
-
-Review the reasons for strong sales in December and March. Use these findings to plan stock, promotions, and sales targets for future months.
+Compare strong and weak months to support sales planning, stock planning, and future promotions.
 
 ## 🏷️ Category Performance: Revenue vs Profit
 
-| Category | Revenue | Profit | Profit Margin |
-|---|---:|---:|---:|
-| Electronics | Tk 8,652,567.50 | Tk 500,857.50 | 5.79% |
-| Home & Kitchen | Tk 1,392,476.00 | Tk 279,536.00 | 20.07% |
-| Fashion | Tk 1,074,777.50 | Tk 340,917.50 | 31.72% |
-| Groceries | Tk 660,091.50 | Tk 29,085.50 | 4.41% |
-| Beauty & Personal Care | Tk 453,779.50 | Tk 160,001.50 | 35.26% |
-| Books & Stationery | Tk 367,030.50 | Tk 77,259.50 | 21.05% |
+This chart compares revenue and profit across six product categories.
 
-### 💡 Key Insight
+| Category | Revenue | Profit |
+|---|---:|---:|
+| Electronics | Tk 8,652,567.50 | Tk 500,857.50 |
+| Home & Kitchen | Tk 1,392,476.00 | Tk 279,536.00 |
+| Fashion | Tk 1,074,777.50 | Tk 340,917.50 |
+| Groceries | Tk 660,091.50 | Tk 29,085.50 |
+| Beauty & Personal Care | Tk 453,779.50 | Tk 160,001.50 |
+| Books & Stationery | Tk 367,030.50 | Tk 77,259.50 |
 
-Electronics is the largest category by both revenue and total profit. However, its profit margin is only 5.79%.
+### 💡 Key Insights
 
-Beauty & Personal Care has the highest profit margin at 35.26%, followed by Fashion at 31.72%.
+- Electronics generates the highest revenue and total profit.
+- Fashion generates more profit than Home & Kitchen despite having lower revenue.
+- Groceries has the lowest profit among the six categories.
 
-Groceries has a low profit margin of 4.41%.
+### 🎯 Business Takeaway
 
-### 🎯 Recommendation
+Compare both revenue and profit before choosing products for promotions or making pricing decisions.
 
-- Review costs and discounts in Electronics to improve profit.
-- Promote Fashion and Beauty & Personal Care products because of their higher profit margins.
-- Check pricing and supplier costs in Groceries.
-- Compare profit margins as well as total sales when choosing products for promotions.
+## 🗺️ Regional Revenue Distribution
 
-## 💻 Top 5 Products by Revenue
+This chart compares sales across eight divisions in Bangladesh.
+
+| Division | Revenue |
+|---|---:|
+| Dhaka | Tk 3,849,386.25 |
+| Rajshahi | Tk 2,404,321.00 |
+| Chattogram | Tk 2,189,951.75 |
+| Sylhet | Tk 1,466,060.50 |
+| Khulna | Tk 1,463,604.75 |
+| Barishal | Tk 646,228.00 |
+| Rangpur | Tk 357,120.25 |
+| Mymensingh | Tk 224,050.00 |
+
+### 💡 Key Insights
+
+- Dhaka has the highest revenue among all divisions.
+- Rajshahi ranks second, followed by Chattogram.
+- Mymensingh has the lowest revenue among the divisions shown.
+
+### 🎯 Business Takeaway
+
+Use regional sales results to compare market performance and identify areas that may need further review.
+
+## 🛍️ Top 5 Best-Selling Products
+
+This chart highlights the five products with the highest revenue.
 
 | Rank | Product | Revenue |
 |---|---|---:|
@@ -100,116 +109,39 @@ Groceries has a low profit margin of 4.41%.
 
 ### 💡 Key Insight
 
-The two laptop models lead product sales. Together, they generate more than Tk 4.41 million in revenue.
+Laptop Ultra 14 I5 is the top-selling product by revenue, followed by Laptop Basic 15 I3.
 
-The five products listed above generate Tk 7,285,880 in combined revenue.
+The five products generate a combined revenue of Tk 7,285,880.
 
-### 🎯 Recommendation
+### 🎯 Business Takeaway
 
-Keep popular products available and review their profit margins before offering large discounts. High sales alone do not guarantee high profit.
+Monitor the sales of these products and review their stock levels and profit performance.
 
-## 💵 Top 5 Products by Profit
+## 📉 Bottom Performing Products
 
-| Rank | Product | Profit |
-|---|---|---:|
-| 1 | Laptop Ultra 14 I5 | Tk 155,660 |
-| 2 | Women's Jamdani Saree | Tk 99,580 |
-| 3 | Laptop Basic 15 I3 | Tk 98,280 |
-| 4 | Refrigerator 190L | Tk 73,500 |
-| 5 | Smartphone Nova 128GB | Tk 67,310 |
-
-### 💡 Key Insight
-
-The top products by revenue and profit are not exactly the same. Women's Jamdani Saree ranks second by profit, even though it is not among the top five products by revenue.
-
-### 🎯 Recommendation
-
-Track both revenue and profit when selecting products for campaigns. Products outside the top sales list may still provide strong profit.
-
-## ⚠️ Lowest Revenue Products
-
-The dashboard also highlights products with the lowest revenue.
+This chart shows the five products with the lowest revenue among the products displayed.
 
 | Product | Revenue |
 |---|---:|
 | Gel Pen Pack 10Pc | Tk 14,943.50 |
-| Biscuit Family Pack | Tk 15,120 |
-| Red Lentil 1Kg | Tk 15,180 |
+| Biscuit Family Pack | Tk 15,120.00 |
+| Red Lentil 1Kg | Tk 15,180.00 |
 | A4 Notebook 200 Pages | Tk 15,616.50 |
-| Spiral Notebook Pack 3 | Tk 15,756 |
+| Spiral Notebook Pack 3 | Tk 15,756.00 |
 
 ### 💡 Key Insight
 
-These products have the lowest revenue among the products shown in this chart. Low revenue does not always mean low profit, so both measures should be checked.
+These products have the lowest revenue in the chart. Low revenue alone does not mean that a product is unprofitable.
 
-### 🎯 Recommendation
+### 🎯 Business Takeaway
 
-Review demand, pricing, stock levels, and profit for these products before deciding whether to promote them or change their stock levels.
+Review product demand, stock levels, and profit before deciding whether to change prices or run promotions.
 
-## 👥 Customer Analysis
+## 📦 Order Status Breakdown
 
-### Customer Type Performance
+This chart shows how the 2,000 orders are divided by status.
 
-| Customer Type | Revenue | Profit |
-|---|---:|---:|
-| Regular | Tk 5,569,126.50 | Tk 636,896.50 |
-| New | Tk 3,471,676.75 | Tk 418,652.75 |
-| Premium | Tk 2,473,702.75 | Tk 259,709.75 |
-| Corporate | Tk 1,086,216.50 | Tk 72,398.50 |
-
-### 💡 Key Insight
-
-Regular customers generate the highest revenue and profit among the four customer groups.
-
-Corporate customers generate the lowest total profit, even though they receive the highest average discount.
-
-The top 10 customers account for around 13.27% of total revenue.
-
-### 🎯 Recommendation
-
-- Build loyalty offers for regular customers.
-- Encourage new customers to make repeat purchases.
-- Review discounts offered to corporate customers.
-- Keep track of the top customers and their buying patterns.
-
-## 🗺️ Regional Sales Performance
-
-### Revenue by Division
-
-| Division | Revenue | Profit |
-|---|---:|---:|
-| Dhaka | Tk 3,849,386.25 | Tk 361,123.25 |
-| Rajshahi | Tk 2,404,321.00 | Tk 294,675.00 |
-| Chattogram | Tk 2,189,951.75 | Tk 245,066.75 |
-| Sylhet | Tk 1,466,060.50 | Tk 172,633.50 |
-| Khulna | Tk 1,463,604.75 | Tk 165,674.75 |
-| Barishal | Tk 646,228.00 | Tk 51,581.00 |
-| Rangpur | Tk 357,120.25 | Tk 51,545.25 |
-| Mymensingh | Tk 224,050.00 | Tk 45,358.00 |
-
-### 💡 Key Insight
-
-Dhaka is the leading division by revenue and profit. Rajshahi and Chattogram are the next two largest divisions by revenue.
-
-Mymensingh has the lowest revenue among the divisions listed. Rangpur and Barishal also have much lower revenue than the leading divisions.
-
-### Top 5 Districts by Revenue
-
-| Rank | District | Revenue |
-|---|---|---:|
-| 1 | Dhaka | Tk 2,582,939.00 |
-| 2 | Rajshahi | Tk 1,176,843.50 |
-| 3 | Cumilla | Tk 998,746.75 |
-| 4 | Khulna | Tk 830,221.75 |
-| 5 | Gazipur | Tk 716,248.50 |
-
-### 🎯 Recommendation
-
-Study the sales methods used in Dhaka and other leading areas. Review demand, delivery costs, product mix, and marketing in lower revenue areas before increasing spending there.
-
-## 📦 Order Status Analysis
-
-| Order Status | Orders | Share of Orders |
+| Order Status | Number of Orders | Share |
 |---|---:|---:|
 | Delivered | 1,369 | 68.45% |
 | Cancelled | 207 | 10.35% |
@@ -218,117 +150,60 @@ Study the sales methods used in Dhaka and other leading areas. Review demand, de
 | Returned | 109 | 5.45% |
 | **Total** | **2,000** | **100%** |
 
-### 💡 Key Insight
+### 💡 Key Insights
 
-Delivered orders account for 68.45% of all orders. The cancellation rate is 10.35%, while the return rate is 5.45%.
+- Delivered orders account for 68.45% of all orders.
+- Cancelled orders account for 10.35%.
+- Returned orders account for 5.45%.
 
-Cancelled and returned orders together account for 316 orders, or 15.8% of all orders.
+### 🎯 Business Takeaway
 
-### 🎯 Recommendation
+Review cancelled and returned orders to understand where order handling and delivery may need improvement.
 
-Review the reasons for cancellations and returns. Improve product details, delivery updates, and order checks to help reduce lost sales.
+## 👥 Sales Share by Customer Type
 
-## 📱 Sales Channel and Payment Method
+This chart compares total revenue from four customer types.
 
-### Orders by Sales Channel
-
-| Sales Channel | Orders |
+| Customer Type | Revenue |
 |---|---:|
-| Mobile App | 853 |
-| Website | 668 |
-| Facebook | 312 |
-| Phone | 167 |
+| Regular | Tk 5,569,126.50 |
+| New | Tk 3,471,676.75 |
+| Premium | Tk 2,473,702.75 |
+| Corporate | Tk 1,086,216.50 |
+| **Total** | **Tk 12,600,722.50** |
 
-### Orders by Payment Method
+### 💡 Key Insights
 
-| Payment Method | Orders |
-|---|---:|
-| bKash | 652 |
-| Cash on Delivery | 542 |
-| Nagad | 357 |
-| Card | 275 |
-| Rocket | 174 |
+- Regular customers contribute the highest revenue.
+- New customers are the second-largest group by revenue.
+- Corporate customers contribute the lowest revenue among the four groups.
 
-### 💡 Key Insight
+### 🎯 Business Takeaway
 
-The Mobile App is the most used sales channel, with 853 orders. The Website follows with 668 orders.
+Review customer revenue to understand which customer groups contribute most to total sales.
 
-bKash is the most used payment method, with 652 orders, followed by Cash on Delivery with 542 orders.
+## 🎯 Key Dashboard Findings
 
-### 🎯 Recommendation
-
-Improve the Mobile App shopping experience and keep payment steps simple. Continue supporting popular payment methods while checking customer needs across all channels.
-
-## 🏷️ Discount Analysis
-
-### Profit by Discount Band
-
-| Discount Band | Revenue | Profit | Profit Margin |
-|---|---:|---:|---:|
-| 0% | Tk 3,695,045.00 | Tk 771,440.00 | 20.88% |
-| 1% to 10% | Tk 4,569,513.50 | Tk 640,617.50 | 14.02% |
-| 11% to 20% | Tk 2,861,128.25 | Tk 108,238.25 | 3.78% |
-| Above 20% | Tk 1,475,035.75 | -Tk 132,638.25 | -8.99% |
-
-Average discount across all orders is 10.56%.
-
-### 💡 Key Insight
-
-Orders with discounts above 20% show a total loss of Tk 132,638.25 and a negative profit margin of 8.99%.
-
-Profit margins fall as the discount band increases. Orders with no discount have the highest margin among the four bands.
-
-### 🎯 Recommendation
-
-- Review discounts above 20% as a priority.
-- Set clear rules for large discounts.
-- Check product costs and profit before approving special offers.
-- Measure the extra sales generated by each promotion.
-
-## 🚨 Where Is DeshiCart Losing Money?
-
-The analysis shows negative profit values for some products, especially in Electronics and Groceries, as well as Home & Kitchen.
-
-Examples of products with negative profit values in the analysis include:
-
-- Laptop Ultra 14 I5
-- Laptop Basic 15 I3
-- Refrigerator 190L
-- Miniket Rice 25Kg
-- Non-Stick Cookware Set
-
-The analysis points to discounts above 20% as a major source of losses. However, product-level profit figures should be checked against the original transaction data before taking action.
-
-### 🎯 Recommendation
-
-Review product costs, selling prices, and discounts. Make sure each product's profit is calculated correctly and that high discounts do not push the selling price below cost.
-
-## 🎯 Final Business Recommendations
-
-1. **Improve Profit Margins:** Focus on categories such as Fashion and Beauty & Personal Care, which have higher profit margins.
-2. **Review Large Discounts:** Orders with discounts above 20% show a total loss in the discount analysis.
-3. **Protect Top Products:** Track stock, sales, and profit for the leading laptop, refrigerator, and smartphone products.
-4. **Grow Customer Loyalty:** Regular customers generate the highest revenue and profit.
-5. **Improve Order Completion:** Review cancellations and returns to reduce lost sales.
-6. **Build on Strong Sales Channels:** Improve the Mobile App experience and support popular payment methods.
-7. **Review Regional Results:** Learn from leading divisions and investigate lower revenue areas.
-8. **Track Profit, Not Just Sales:** Use both revenue and profit to guide pricing, discounts, and promotions.
+1. 💰 **Sales Performance:** Total sales reached Tk 12.60 million, with Tk 1.39 million in profit.
+2. 📈 **Monthly Trend:** December recorded the highest monthly revenue.
+3. 🏷️ **Category Performance:** Electronics leads in revenue and total profit.
+4. 🛍️ **Product Performance:** Laptop Ultra 14 I5 is the top-selling product by revenue.
+5. 🗺️ **Regional Performance:** Dhaka generates the highest revenue.
+6. 📦 **Order Status:** Delivered orders make up 68.45% of all orders.
+7. 👥 **Customer Type:** Regular customers contribute the highest revenue.
 
 ## 🛠️ Tools Used
 
 - Microsoft Excel
-- Pivot Tables
 - Excel Charts
-- KPI Analysis
+- KPI Cards
 - Sales and Profit Analysis
-- Customer and Regional Analysis
-- Discount Analysis
+- Product Performance Analysis
+- Regional Sales Analysis
 
-## ⚠️ Data Notes
+## ⚠️ Notes
 
 - All financial values are shown in Bangladeshi Taka (Tk).
-- Results are based on the data and calculations in the workbook.
-- The monthly sales analysis covers July 2025 to June 2026.
-- Revenue, profit, and profit margin measure different things and should be reviewed together.
-- Negative profit values and discount rules should be checked against transaction-level data before business decisions are made.
-
+- The findings in this README describe the metrics and charts shown on the dashboard.
+- Revenue and profit are different measures, so both should be reviewed when comparing performance.
+- The bottom performing products chart ranks products by revenue, not by profit.
